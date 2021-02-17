@@ -3,6 +3,7 @@ import Vue from 'vue'
 import router from './router.js'
 // 引入样式（tailwind自带类似于normalize.css的样式重置功能）
 import 'tailwindcss/tailwind.css'
+import 'S/theme/index.css' // 自定义ElementUI主题
 // 引入根组件
 import App from './App.vue'
 // vlevin @ 2020-06-17 组件库
