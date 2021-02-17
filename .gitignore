@@ -1,0 +1,6 @@
+# 目录
+node_modules
+dist
+vscode
+# 文件
+*.zip
