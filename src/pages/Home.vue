@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-blue-400">Hello world</h1>
+  <h1 class="text-blue-400 text-2xl text-center">Hello world</h1>
 </template>
 <script>
 export default {

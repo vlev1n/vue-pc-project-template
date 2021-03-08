@@ -17,4 +17,4 @@ const vm = new Vue({
   render: (h) => h(App),
   router,
 }).$mount('#app')
-Vue.use({ vm })
+Vue.use(vm)

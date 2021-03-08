@@ -2,10 +2,9 @@ const { merge } = require('webpack-merge')
 const common = require('./webpack.common.js')
 module.exports = merge(common, {
   mode: 'development',
-  devtool: 'source-map',
+  devtool: 'eval-cheap-module-source-map',
   devServer: {
     port: 8611,
-    stats: 'errors-only',
     proxy: {
       '/': {
         target: 'https://new.icity24.xyz',
